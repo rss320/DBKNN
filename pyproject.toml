@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dbknn"
+version = "0.1.0"
+description = "DBSCAN-KNN hybrid method for solute cluster identification in APT data"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scikit-learn",
+    "pythresh",
+    "numba>=0.59",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib", "scienceplots"]
+apt = ["ase"]
+all = ["dbknn[plot,apt]"]
