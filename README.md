@@ -7,18 +7,18 @@ The hybrid DB-KNN algorithm from: Stroud, Ryan S., et al. "Testing Outlier Detec
 
 ## Install
 
-pip install git+https://github.com/rss320/DB-KNN.git
+pip install git+https://github.com/rss320/DBKNN.git
 
 or if using uv (https://docs.astral.sh/uv/),
 
-uv add git+https://github.com/rss320/DB-KNN.git
+uv add git+https://github.com/rss320/DBKNN.git
 
 or as a script,
 
 ```python
 # /// script
 # dependencies = [
-#   "DBKNN @ git+https://github.com/rss320/DB-KNN.git",
+#   "DBKNN @ git+https://github.com/rss320/DBKNN.git",
 # ]
 # ///
 ```
