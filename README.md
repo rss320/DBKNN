@@ -141,4 +141,4 @@ Plotting functions have been included. However, the recommended way to visualise
 
 # About
 
-This repository provides an easy-to-use implementation of the DB-KNN algorithm described in the paper by Stroud et al.
+This repository provides an easy-to-use implementation of the DB-KNN algorithm described in the paper Stroud, Ryan S., et al. "Testing Outlier Detection Algorithms for Identifying Early Stage Solute Clusters in Atom Probe Tomography." Microscopy and Microanalysis 30.5 (2024): 853-865.
